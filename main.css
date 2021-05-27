@@ -33,7 +33,10 @@ body {
   }
   .navbar-nav {
     position: relative;
-    right:
+  }
+  title {
+    position: relative;
+    font-size: xx-large;
   }
   
   

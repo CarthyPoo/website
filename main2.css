@@ -33,45 +33,24 @@ body {
   }
   .navbar-nav {
     position: relative;
-    right:
   }
   
-  
-  /*--- Paragraph ---*/
-  .description {
-    left: 50%;
-    position: absolute;
-    top: 45%;
-    transform: translate(-50%, -55%);
-    text-align: center;
+  /*social media*/ 
+  .social {
+    opacity: 0.7;
+    transition: opacity .2s;
+    transition: transform .2s;
+    margin: auto;
+    position: fixed;
+    left:25%;
   }
-  .description h1 {
-    color: #2bff00;
+  .social:hover {
+    transition: transform .2s;
+    transition: opacity .2s;
+    transform: scale(1.2);
+    opacity: 1;
   }
-  .description p {
-    color: #fff;
-    font-size: 1.3rem;
-    line-height: 1.5;
-  }
-  #container {
-  height: 400px;
-  width: 400px;
-  position: relative;
-}
-#image {
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-#text {
-  z-index: 100;
-  position: absolute;
-  color: white;
-  font-size: 24px;
-  font-weight: bold;
-  left: 150px;
-  top: 350px;
-}
+
 
 
   /*animation shit*/
