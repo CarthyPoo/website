@@ -36,21 +36,33 @@ body {
   }
   
   /*social media*/ 
-  .social {
+  .twitch {
     opacity: 0.7;
-    transition: opacity .2s;
     transition: transform .2s;
     margin: auto;
-    position: fixed;
-    left:25%;
+    position: absolute;
+    right: 55%;
+    top: 25%;
   }
-  .social:hover {
+  .twitch:hover {
     transition: transform .2s;
-    transition: opacity .2s;
     transform: scale(1.2);
     opacity: 1;
   }
-
+  .twitter {
+    opacity: 0.7;
+    transition: transform .2s;
+    margin: auto;
+    position: absolute;
+    left: 100%;
+    top: 25%;
+  }
+  .twitter:hover {
+    transition: transform .2s;
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  
 
 
   /*animation shit*/
