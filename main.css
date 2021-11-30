@@ -3,6 +3,7 @@ body {
     margin: 0;
     background-image: url(https://i.imgur.com/vKSzFo6.jpg);
     background-size: cover;
+    overflow-y: scroll;
   }
   /*--- navigation bar ---*/
   .navbar {
@@ -39,7 +40,14 @@ body {
     font-size: xx-large;
   }
   
+  /* About me */
+  .aboutme {
+    position: relative;
   
+    
+  
+  }
+
   /*--- Paragraph ---*/
   .description {
     left: 50%;
@@ -82,8 +90,7 @@ body {
     background-color: hsl(0, 0%, 100%);
     color:hsl(180, 100%, 25%);
     border-radius: 0;
-    
-    
+    position: relative;
   }
   .Main button:hover {
     background-color: hsl(0, 3%, 25%);
@@ -92,25 +99,34 @@ body {
   }
   .center {
     margin: 0;
-    position: fixed;
+    position: absolute;
     top: 55%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     background-color: hsl(0, 0%, 100%);
-    border-radius: 0;
+
+  }
+  /*smooth scrolling*/
+  html {
+    scroll-behavior: smooth;
+  }
+  .aboutme {
+    background-color: gray;
+    margin: auto;
+    position: absolute;
+    bottom: -10%;
+
   }
 
 
   /*animation shit*/
   html {
     height: 100%;
-    overflow: hidden;
-    
   }
   
   #stars {
-    position: absolute;
+    position: static;
     right: 500%;
     width: 1px;
     height: 1px;
@@ -119,10 +135,10 @@ body {
     animation: animStar 50s linear infinite;
   }
   #stars:after {
-    position: fixed;
+    position: static;
     right: 500%;
     content: " ";
-    position: absolute;
+    position: static;
     top: 2000px;
     width: 1px;
     height: 1px;
@@ -131,7 +147,7 @@ body {
   }
   
   #stars2 {
-    position: fixed;
+    position: static;
     right: 500%;
     width: 2px;
     height: 2px;
@@ -140,10 +156,10 @@ body {
     animation: animStar 100s linear infinite;
   }
   #stars2:after {
-    position: fixed;
+    position: static;
     right:500%;
     content: " ";
-    position: absolute;
+    position: relative;
     top: 2000px;
     width: 2px;
     height: 2px;
@@ -152,7 +168,7 @@ body {
   }
   
   #stars3 {
-    position: fixed;
+    position: static;
     right:500%;
     width: 3px;
     height: 3px;
@@ -161,10 +177,10 @@ body {
     animation: animStar 150s linear infinite;
   }
   #stars3:after {
-    position: fixed;
+    position: static;
     right:500%;
     content: " ";
-    position: absolute;
+    position: relative;
     top: 2000px;
     width: 3px;
     height: 3px;

@@ -62,6 +62,10 @@ body {
     transform: scale(1.2);
     opacity: 1;
   }
+  /*smooth scrolling*/
+  html {
+    scroll-behavior: smooth;
+  }
   
 
 
