@@ -2,87 +2,91 @@
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="stylesheet" type="text/css" href="main.css" media="screen"/>
-    <link rel="icon" href="boba.gif" type="image/gif">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  </head>
-<body>
-  
 
-<!-- Navigation Text-->
+<head>
+  <link rel="stylesheet" type="text/css" href="main.css" media="screen" />
+  <link rel="icon" href="boba.gif" type="image/gif">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+  <!-- Navigation Text-->
   <div class="description">
     <h1>Welcome to Lawrence's Website!</h1>
     <p> Here you will find things like my contact information and Social Media!</p>
   </div>
   <div class="overlay"></div>
-    <nav class="navbar navbar-expand-md">
-        <a class="navbar-brand" href="#">
-            <img src="https://i.imgur.com/NGcA4qP.png" width="100" height="100" alt="Drawing by Alirah">
-            </a>  
-        <header id ="title">
-          <div class = "title">
-            <h1> ローレンス</h1>
-       </div>
-      </header>  
-        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="main-navigation">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/socials">Social Media</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/">How to Contact Me</a>
-              </li>
-          </ul>
-        </div>
-      </nav>
+  <nav class="navbar navbar-expand-md">
+    <a class="navbar-brand" href="#">
+      <img src="https://i.imgur.com/NGcA4qP.png" width="100" height="100" alt="Drawing by Alirah">
+    </a>
+    <header id="title">
+      <div class="title">
+        <h1> ローレンス</h1>
+      </div>
+    </header>
+    <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="main-navigation">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/socials">Social Media</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/">How to Contact Me</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 </body>
 
 <!--about me-->
 <div class="aboutme">
   <h1>About Me </h1>
-  <p>Hi, my name is Lawrence Porquia but most people online know me as Carthy! I am a High School student  </p>
+  <p>Hi, my name is Lawrence Porquia but most people online know me as Carthy! I am a High School student </p>
 
 </div>
 
 <!--button-->
 <div class="Main">
   <div class="center">
-</main> 
-<a href="#"> <button type="button" class="btn btn-outline-primary btn-lg" >About Me! </button> 
-</a>
-
- 
-
-<!--animation-->
-<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
-<div id='stars'></div>
-<div id='stars2'></div>
-<div id='stars3'></div>
-<div id='title'>
-
-<!--title scroll-->
-<title>&nbspLawrence's Really Cool and Awesome Website</title>
-<script type="text/javascript">
-var titleText = document.title;
-
-function titleMarquee() {
-  titleText = titleText.substring(1, titleText.length) + titleText.substring(0, 1);
- document.title = titleText;
- setTimeout("titleMarquee()", 350);
-}
-</script>
-
-<body onload="titleMarquee()">
+    </main>
+    <a href="#"> <button type="button" class="btn btn-outline-primary btn-lg">About Me! </button>
+    </a>
 
 
-</body>
+
+    <!--animation-->
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <div id='stars'></div>
+    <div id='stars2'></div>
+    <div id='stars3'></div>
+    <div id='title'>
+
+      <!--title scroll-->
+      <title>&nbspLawrence's Really Cool and Awesome Website</title>
+      <script type="text/javascript">
+        var titleText = document.title;
+
+        function titleMarquee() {
+          titleText = titleText.substring(1, titleText.length) + titleText.substring(0, 1);
+          document.title = titleText;
+          setTimeout("titleMarquee()", 350);
+        }
+      </script>
+
+      <body onload="titleMarquee()">
+
+
+      </body>
+
 </html>
