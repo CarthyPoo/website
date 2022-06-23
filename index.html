@@ -7,89 +7,72 @@
 
   <link rel="stylesheet" type="text/css" href="styles/main.css" media="screen" />
   <link rel="stylesheet" type="text/css" href="styles/nav.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="styles/stars.css" media="screen" />
+
 
   <link rel="icon" href="boba.gif" type="image/gif">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/5ab0bed43b.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
-
-  <!--front page-->
-  <!-- <script src="newstuff.js"></script> -->
-  
+<body onload="titleMarquee()">
 
   <!-- Navigation Text-->
-  <div class="overlay"></div>
   <nav class="navbar navbar-expand-md">
-    <a class="navbar-brand" href="#">
-      <img src="https://i.imgur.com/NGcA4qP.png" class="intro-pic" alt="Drawing by Alirah">
-    </a>
-    <header id="title">
+    <img src="images/image.png" class="intro-pic" alt="Drawing by Alirah">
       <div class="title">
         <h1> ローレンス</h1>
       </div>
-    </header>
-    <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
     <div class="collapse navbar-collapse" id="main-navigation">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="">Home</a>
+          <a class="nav-link" href=""><i class="fa-solid fa-house-chimney"></i></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/socials">Social Media</a>
+          <a class="nav-link" href="/socials"><i class="fa-brands fa-twitch twitch"></i></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/">How to Contact Me</a>
+          <a class="nav-link" href="/"><i class="fa-brands fa-discord"></i></a>
         </li>
       </ul>
     </div>
   </nav>
 
+  <!-- Main content -->
+  <section class="main-content">
+    <div class="main-paragraph"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit nulla quia ratione dignissimos natus aliquam provident, voluptatem qui officia ducimus veniam harum facere quos in ipsa, rem molestiae amet similique.</p></div>
+    <div class="main-pic">
+     <img src='https://i.imgur.com/USq3Bq5.jpg'/> 
+    </div>
+  </section>
+
+  <!--animation-->
+  <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+  <div id='stars'></div>
+  <div id='stars2'></div>
+  <div id='stars3'></div>
+  <div id='title'>
+
+    <!--title scroll-->
+    <title>&nbsp;Lawrence's Really Cool and Awesome Website</title>
+    <script type="text/javascript">
+      let titleText = document.title;
+
+      function titleMarquee() {
+        titleText = titleText.substring(1, titleText.length) + titleText.substring(0, 1);
+        document.title = titleText;
+        setTimeout("titleMarquee()", 350);
+      }
+
+      function myFunction() {
+        alert("hi")
+      }
+    </script>
+
+
+
 </body>
-
-<!--about me-->
-<div class="aboutme">
-  <h1>About Me </h1>
-  <p> </p>
-
-</div>
-
-<!--button-->
-<div class="Main">
-  <div class="center">
-    </main>
-    <a href="#"> <button type="button" class="btn btn-outline-primary btn-lg">About Me! </button>
-    </a>
-
-
-
-    <!--animation-->
-    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
-    <div id='stars'></div>
-    <div id='stars2'></div>
-    <div id='stars3'></div>
-    <div id='title'>
-
-      <!--title scroll-->
-      <title>&nbspLawrence's Really Cool and Awesome Website</title>
-      <script type="text/javascript">
-        var titleText = document.title;
-
-        function titleMarquee() {
-          titleText = titleText.substring(1, titleText.length) + titleText.substring(0, 1);
-          document.title = titleText;
-          setTimeout("titleMarquee()", 350);
-        }
-      </script>
-
-      <body onload="titleMarquee()">
-
-
-      </body>
 
 </html>
