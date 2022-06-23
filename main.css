@@ -43,18 +43,26 @@ body {
   /* About me */
   .aboutme {
     position: relative;
-  
-    
-  
   }
 
   /*--- Paragraph ---*/
-  .description {
+  .shit {
+    position: relative;
+    left: 150%;
+  }
+  .front {
+    position: relative;
+    color: #ff0000;
+    top: 45%;
     left: 50%;
+  }
+  .description {
+    font-size: 65%;
+    left: 25%;
     position: absolute;
     top: 45%;
-    transform: translate(-50%, -55%);
-    text-align: center;
+    width: 400px;
+    text-align: left;
   }
   .description h1 {
     color: #2bff00;
@@ -100,7 +108,7 @@ body {
   .center {
     margin: 0;
     position: absolute;
-    top: 55%;
+    top: 65%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
