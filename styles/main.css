@@ -14,17 +14,39 @@ display: flex;
 
 .main-paragraph {
   width: 50%;
+  margin: 20px;
 }
 
-.main-paragraph {
+.main-paragraph p{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  position: relative;
+  font-size: xx-large;
   width: 50%;
+  top: 30%;
+  left: 30%;
+  
 }
 
 .main-pic {
-  width: 50%;
-}
-.main-pic img{
   width: 25%;
-  height: 25%;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
+
+.main-pic img{
+  position: relative;
+  left: 25%;
+  top: 7%;
+  width: 100%;
+  height: 100%;
+}
