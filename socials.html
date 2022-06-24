@@ -1,81 +1,91 @@
 <!--If you really want to look at this abomination of HTML code go ahead but I must warn you, it will very painful-->
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
 
-    <link rel="stylesheet" type="text/css" href="main2.css" media="screen"/>
-    <link rel="icon" href="boba.gif" type="image/gif">
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="main.js"
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  </head>
-<body>
-  
-<!-- Navigation Text-->
-  <div class="overlay"></div>
-    <nav class="navbar navbar-expand-md">
-        <a class="navbar-brand" href="#">
-            <img src="https://i.imgur.com/NGcA4qP.png" width="100" height="100" alt="Drawing by Alirah">
-            </a>
-        <header id ="title">
-             <div class = "title">
-             <h1> ローレンス</h1>
-        </div>
-        </header>  
-        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="main-navigation">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="/">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/socials">Social Media</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="www.">How to Contact Me</a>
-              </li>
-          </ul>
-        </div>
-      </nav>
-</body>
+<head>
 
-<!--animation-->
-<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
-<div id='stars'></div>
-<div id='stars2'></div>
-<div id='stars3'></div>
-<div id='title'>
-
-<!--Social Media links-->
-<div class="twitch";>
-  <a href="https://www.twitch.tv/carthypoo">
-   <img src="https://i.imgur.com/HtqKNHN.png" >
-   
-<div class="twitter";>
-  <a href="https://twitter.com/CarthyTTV">
-    <img src="https://imgur.com/FAzNU2p.png">
-  </a>
-</div>
+  <link rel="stylesheet" type="text/css" href="styles/main.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="styles/nav.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="styles/stars.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="styles/bio.css" media="screen" />
 
 
-<!--title scroll-->
-<title>&nbspLawrence's Really Cool and Awesome Website</title>
-<script type="text/javascript">
-var titleText = document.title;
+  <link rel="icon" href="boba.gif" type="image/gif">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/5ab0bed43b.js" crossorigin="anonymous"></script>
 
-function titleMarquee() {
-  titleText = titleText.substring(1, titleText.length) + titleText.substring(0, 1);
- document.title = titleText;
- setTimeout("titleMarquee()", 350);
-}
-</script>
+</head>
 
 <body onload="titleMarquee()">
 
+  <!-- Navigation Text-->
+  <nav class="navbar navbar-expand-md">
+    <img src="images/image.png" class="intro-pic" alt="Drawing by Alirah">
+    <div class="title">
+      <h1> ローレンス</h1>
+    </div>
+    <div class="collapse navbar-collapse" id="main-navigation">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href=""><i class="fa-solid fa-house-chimney"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/"><i class="fa-brands fa-twitch twitch"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/"><i class="fa-brands fa-discord"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/"><i class="fa-brands fa-instagram"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/"><i class="fa-brands fa-twitter"></i></a>
+        </li>
+        <li class="nav-link" href=""><i class="fa-brands fa-github"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/"><i class="fa-brands fa-lastfm"></i></a>
+        </li>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main content -->
+  <section class="about-content">
+    <div class="aboutme-title">
+      <h1>Why I chose to become a developer</h1>
+    </div>
+    <div class="about-me">
+      <p>Excepteur commodo officia excepteur ut velit veniam cillum voluptate adipisicing esse in Lorem. Ipsum culpa occaecat qui nulla sunt qui ullamco culpa tempor. In occaecat ut magna magna magna excepteur eu et dolore dolor fugiat id incididunt occaecat.</p>
+    </div>
+  <!--animation-->
+  <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+  <div id='stars'></div>
+  <div id='stars2'></div>
+  <div id='stars3'></div>
+  <div id='title'>
+
+    <!--title scroll-->
+    <title>&nbsp;Lawrence's Really Cool and Awesome Website</title>
+    <script type="text/javascript">
+      let titleText = document.title;
+
+      function titleMarquee() {
+        titleText = titleText.substring(1, titleText.length) + titleText.substring(0, 1);
+        document.title = titleText;
+        setTimeout("titleMarquee()", 350);
+      }
+
+      function myFunction() {
+        alert("hi")
+      }
+    </script>
+
+
 
 </body>
+
 </html>

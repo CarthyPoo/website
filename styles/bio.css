@@ -1,0 +1,7 @@
+.about-content {
+    position: absolute;
+    text-align: center;
+    backdrop-filter: blur(2px);
+    z-index: 1;
+  }
+  
