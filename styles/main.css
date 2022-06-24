@@ -16,11 +16,15 @@ display: flex;
   width: 50%;
   margin: 20px;
   color: aliceblue;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .main-paragraph p{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  position: relative;
+  text-align: center;
   font-size: xx-large;
   width: 50%;
   top: 35%;
@@ -31,10 +35,15 @@ display: flex;
 }
 
 .main-pic {
-  width: 25%;
+  width: 50%;
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 0;
 }
 
 @keyframes fadeInAnimation {
@@ -48,23 +57,15 @@ display: flex;
 
 .main-pic img{
   position: relative;
-  left: 25%;
-  top: 5%;
-  width: 100%;
-  height: 100%;
+  width: 40%;
+  border-radius: 10px;
 }
 
 .about-me-button{
-  position: absolute;
-  left: 25%;
-  bottom: 35%;
+  position: relative;
   transition: all .15s ease-in;
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+  z-index: 1;
 }
-
-
-
-
-
