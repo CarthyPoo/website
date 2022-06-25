@@ -1,20 +1,23 @@
 .about-content {
-    text-align: center;
+  margin: 20px;
+  text-align: center;
 }
 
 .aboutme-title {
   color: aliceblue;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: xx-large;
-  position: relative;
+  display: flex;
+  justify-content: center;
 
 }
 
 .about-me {
+  position: relative;
   color: aliceblue;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: large;
-  position: relative;
+  
 
   
 }
