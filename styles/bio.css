@@ -4,33 +4,37 @@
   display: flex;
   flex-direction: column;
   transform: translateY(100%);
+  backdrop-filter: brightness(60%);
 }
+
 
 .aboutme-title {
   width: 50%;
   margin: 20px;
+  display: contents;
 }
 .aboutme-title h1 {
   position: relative;
   text-align: center;
   color: aliceblue;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: xx-large;
+  font-size: 325%;
   display: flex;
   justify-content: center;
   padding: 5px;
-  left: 45%;
-
 }
 
-/* .about-me {
-  
-} */
+.about-me {
+  display: flex;
+  justify-content: center;
+}
 
 .about-me p{
   text-align: center;
   color: aliceblue;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: large;
+  width: 50%;
+  
 }
   
