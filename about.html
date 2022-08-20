@@ -1,0 +1,90 @@
+<!--If you really want to look at this abomination of HTML code go ahead but I must warn you, it will very painful-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <link rel="stylesheet" type="text/css" href="styles/main.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="styles/nav.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="styles/stars.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="styles/bio.css" media="screen" />
+
+
+  <link rel="icon" href="boba.gif" type="image/gif">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/5ab0bed43b.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body onload="titleMarquee()">
+
+  <!-- Navigation Text-->
+  <nav class="navbar navbar-expand-md">
+    <img src="images/image.png" class="intro-pic" alt="Drawing by Alirah">
+    <div class="title">
+      <h1> ローレンス</h1>
+    </div>
+    <div class="collapse navbar-collapse" id="main-navigation">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href=""><i class="fa-solid fa-house-chimney"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://dsc.bio/carthy"><i class="fa-brands fa-discord"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.instagram.com/lawrenceporquia"><i class="fa-brands fa-instagram"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://twitter.com/CarthyTTV"><i class="fa-brands fa-twitter"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/CarthyPoo"><i class="fa-brands fa-github"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.last.fm/user/Carthypoo"><i class="fa-brands fa-lastfm"></i></a>
+        </li>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main content -->
+  <section class="about-content">
+    <div class="aboutme-title">
+      <h1>Why I chose to become a developer</h1>
+    </div>
+    <div class="about-me">
+      <p> Ever wondered what it means to be a developer? Developers are people that build and grow anything that they can envision! The only limit is their imagination. I want to become a developer because of my love for technology. I want to create something people can use and enjoy. We all rely on technology in our lives. As a student working towards becoming a developer, I've started to look more into online courses and even beginner projects! What got me interested in code development was mathematics. I have a passion for mathematics. I would have never gotten into programming if I had never dedicated myself to the world of math! This journey has only started! Hopefully, in the future, I will be able to look back and be amazed at where I started.
+      </p>
+    </div>
+  <!--animation-->
+  <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+  <div id='stars'></div>
+  <div id='stars2'></div>
+  <div id='stars3'></div>
+  <div id='title'>
+
+    <!--title scroll-->
+    <title>&nbsp;Lawrence's Really Cool and Awesome Website</title>
+    <script type="text/javascript">
+      let titleText = document.title;
+
+      function titleMarquee() {
+        titleText = titleText.substring(1, titleText.length) + titleText.substring(0, 1);
+        document.title = titleText;
+        setTimeout("titleMarquee()", 350);
+      }
+
+      function myFunction() {
+        alert("hi")
+      }
+    </script>
+
+
+
+</body>
+
+</html>
