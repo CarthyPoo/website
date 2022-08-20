@@ -16,7 +16,6 @@ html {
   
 #stars {
   position: static;
-  right: 500%;
   width: 1px;
   height: 1px;
   background: transparent;
@@ -25,10 +24,7 @@ html {
 }
 #stars:after {
   position: static;
-  right: 500%;
   content: " ";
-  position: static;
-  top: 2000px;
   width: 1px;
   height: 1px;
   background: transparent;
@@ -37,7 +33,6 @@ html {
 
 #stars2 {
   position: static;
-  right: 500%;
   width: 2px;
   height: 2px;
   background: transparent;
@@ -46,10 +41,7 @@ html {
 }
 #stars2:after {
   position: static;
-  right:500%;
   content: " ";
-  position: relative;
-  top: 2000px;
   width: 2px;
   height: 2px;
   background: transparent;
@@ -58,7 +50,6 @@ html {
 
 #stars3 {
   position: static;
-  right:500%;
   width: 3px;
   height: 3px;
   background: transparent;
@@ -67,10 +58,7 @@ html {
 }
 #stars3:after {
   position: static;
-  right:500%;
   content: " ";
-  position: relative;
-  top: 2000px;
   width: 3px;
   height: 3px;
   background: transparent;
