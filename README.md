@@ -3,8 +3,8 @@
 ### Progress so far
 
 - [X] Main page 
-- [ ] Biography page
-- [ ] animations and such for both pages
-- [ ] media links
+- [X] Biography page
+- [?] animations and such for both pages
+- [X] media links
 - [ ] resume page
 - [ ] contact page (email, phone, etc) 
