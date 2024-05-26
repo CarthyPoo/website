@@ -7,9 +7,9 @@
 - [X] Biography page
 - [X] animations and such for both pages
 - [X] media links
-- [ ] resume page
-- [ ] contact page (email, phone, etc)
-- [ ] Mobile View
+- [?] resume page
+- [X]  contact page (still need to write api)
+- [ ] Mobile View (responsiveness)
 
 Maybe add some info about FIRST?
 
