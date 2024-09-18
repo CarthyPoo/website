@@ -13,7 +13,7 @@ display: flex;
 
 .main-paragraph {
   width: 50%;
-  margin: 20px;
+  margin: 15px;
   color: aliceblue;
   display: flex;
   justify-content: center;
@@ -68,3 +68,4 @@ display: flex;
   animation-fill-mode: forwards;
   z-index: 1;
 }
+
