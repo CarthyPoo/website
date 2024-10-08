@@ -1,15 +1,38 @@
-## <p align=center> Lawrence's portfolio
-<p align=center> I started this project way back when I was just started my programming journey and haven't payed much attention to it over the past 3 years and every once in a while I want to expand my knowledge on web development so occasionally I'll spend some time in improving this portfolio to showcase the milestones I've made in my life and build on my design to create a better experience for newcomers to view my portfolio.
+# <p align=center>Lawrence's Portfolio Website
 
-### Progress so far
+# <p align=center>Welcome to my personal portfolio website! This project showcases my skills, projects, and provides links to my social media and professional profiles.
 
-- [X] Main page 
-- [X] Biography page
-- [X] animations and such for both pages
-- [X] media links
-- [?] resume page
-- [X]  contact page (still need to write api)
-- [ ] Mobile View (responsiveness)
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contact](#contact)
 
-Maybe add some info about FIRST?
+## Introduction
+This repository contains the source code for my portfolio website, where I share information about myself as an Information Technology student, highlight my skills, and provide easy access to my social media and professional profiles.
+
+## Features
+- **Responsive Design:** The website is optimized for different screen sizes.
+- **Navigation Bar:** Quick access to my social links (Discord, Instagram, LinkedIn, GitHub, Last.fm).
+- **Background Image:** A full-page background image enhances the site's aesthetics.
+- **Fade-in Animation:** Smooth animation effects for key elements like the profile image and introductory text.
+- **Profile Section:** An introduction about me with a call-to-action button for connecting on LinkedIn.
+- **Image Section:** Displays a profile picture with a subtle fade-in animation.
+
+## Technologies Used
+- **HTML5** for structuring the content.
+- **CSS3** for styling, animations, and background.
+- **JavaScript** for additional animations and interactivity.
+- **Bootstrap** for responsive design and styling components.
+- **Font Awesome** for the social media icons.
+- **Google Fonts** for typography.
+
+## Installation
+To run this project locally, follow these steps:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/CarthyPoo/portfolio-website.git
+
 
