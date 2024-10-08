@@ -29,10 +29,11 @@ This repository contains the source code for my portfolio website, where I share
 - **Font Awesome** for the social media icons.
 - **Google Fonts** for typography.
 
-## Installation
-To run this project locally, follow these steps:
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/CarthyPoo/portfolio-website.git
+## Usage
+Once the website is live, you can:
+- Explore my social media profiles from the navigation bar.
+- Learn more about me through the introduction section.
+- See my contact information to connect on LinkedIn or view my GitHub projects.
+
 
 
